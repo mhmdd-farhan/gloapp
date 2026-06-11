@@ -20,8 +20,8 @@ export function Logo({
         className,
       )}
     >
-      <span className="text-lg">
-        Glo<span className="text-gradient-brand">App</span>
+      <span className="text-lg lowercase">
+        glo<span className="text-gradient-brand">app</span>
       </span>
     </Link>
   );

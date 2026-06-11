@@ -30,12 +30,23 @@ export function ContactForm() {
     formState: { errors, isSubmitting },
   } = useForm<FormValues>({ resolver: zodResolver(schema) });
 
-  async function onSubmit(_data: FormValues) {
-    await new Promise((r) => setTimeout(r, 800));
-    toast.success("Message sent!", {
-      description: "We'll get back to you within 1–2 business days.",
-    });
-    reset();
+  async function onSubmit(data: FormValues) {
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+      toast.success("Message sent!", {
+        description: "We'll get back to you within 1–2 business days.",
+      });
+      reset();
+    } catch {
+      toast.error("Something went wrong", {
+        description: "Please try again, or email us directly.",
+      });
+    }
   }
 
   return (

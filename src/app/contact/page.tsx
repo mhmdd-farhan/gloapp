@@ -30,18 +30,6 @@ export const metadata: Metadata = {
 
 const contactInfo = [
   {
-    icon: Mail,
-    label: "Email",
-    value: siteConfig.email,
-    href: `mailto:${siteConfig.email}`,
-  },
-  {
-    icon: Phone,
-    label: "Phone / WhatsApp",
-    value: siteConfig.phone,
-    href: `tel:${siteConfig.phone}`,
-  },
-  {
     icon: MapPin,
     label: "Location",
     value: siteConfig.location,

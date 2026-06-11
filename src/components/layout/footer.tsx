@@ -28,18 +28,6 @@ export function Footer() {
             </p>
             <ul className="text-muted-foreground flex flex-col gap-2 text-sm">
               <li className="flex items-center gap-2">
-                <Mail className="text-brand size-4" />
-                <a href={`mailto:${siteConfig.email}`} className="hover:text-foreground">
-                  {siteConfig.email}
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="text-brand size-4" />
-                <a href={`tel:${siteConfig.phone}`} className="hover:text-foreground">
-                  {siteConfig.phone}
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
                 <MapPin className="text-brand size-4" />
                 <span>{siteConfig.location}</span>
               </li>

@@ -12,7 +12,7 @@ export const siteConfig = {
   domain: "gloapp.my.id",
   email: "hello@gloapp.my.id",
   phone: "+62 812 0000 0000",
-  location: "Indonesia · Remote-first",
+  location: "Jakarta - Indonesia",
   ogImage: "/opengraph-image",
   social: {
     twitter: "https://twitter.com/gloapp",
