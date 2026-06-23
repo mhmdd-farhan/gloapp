@@ -14,19 +14,20 @@ import { Stagger, StaggerItem, SlideUp } from "@/components/motion/motion-primit
 export const metadata: Metadata = {
   title: "About",
   description:
-    "GloApp is a business solutions ecosystem helping individuals launch their careers and organizations grow through digital solutions.",
+    "GloApp is a software business solutions company transforming traditional digital operations into autonomous digital systems powered by AI.",
   keywords: [
     "about GloApp",
     "GloApp team",
-    "career and business solutions Indonesia",
-    "digital transformation company",
-    "remote-first software studio",
+    "AI transformation Indonesia",
+    "autonomous digital solutions",
+    "software business solutions company",
+    "digital transformation AI",
   ],
   alternates: { canonical: "/about" },
   openGraph: {
     title: `About · ${siteConfig.name}`,
     description:
-      "GloApp is a business solutions ecosystem helping individuals launch their careers and organizations grow through digital solutions.",
+      "GloApp is a software business solutions company transforming traditional digital operations into autonomous digital systems powered by AI.",
     url: `${siteConfig.url}/about`,
   },
 };
@@ -43,9 +44,9 @@ const values = [
       "We build on today's best stack — Next.js, Tailwind, Prisma, TypeScript — so every product is fast, secure, and future-proof.",
   },
   {
-    title: "Growth-oriented",
+    title: "Outcome-oriented",
     description:
-      "Whether it's your career or your business, we care about outcomes, not just deliverables.",
+      "We care about results, not just deliverables. Every solution is measured against the business impact it drives.",
   },
   {
     title: "Human-first",
@@ -91,7 +92,7 @@ const jsonLd = {
       url: `${siteConfig.url}/about`,
       name: `About · ${siteConfig.name}`,
       description:
-        "GloApp is a business solutions ecosystem helping individuals launch their careers and organizations grow through digital solutions.",
+        "GloApp is a software business solutions company transforming traditional digital operations into autonomous digital systems powered by AI.",
       isPartOf: { "@id": siteConfig.url },
     },
   ],
@@ -112,13 +113,14 @@ export default function AboutPage() {
         <Container>
           <SlideUp className="mx-auto max-w-3xl text-center">
             <h1 className="font-heading mb-5 text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl lg:leading-[1.05]">
-              We help people and businesses{" "}
-              <GradientText>move forward</GradientText>
+              We transform businesses into{" "}
+              <GradientText>autonomous digital</GradientText>
             </h1>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg leading-relaxed text-pretty">
-              GloApp is a business solutions ecosystem. We help individuals
-              launch careers and organizations grow through modern digital
-              solutions — built by a team that cares about outcomes.
+              GloApp is a software business solutions company. We help
+              organizations move from traditional digital operations to
+              autonomous digital systems — powered by artificial intelligence,
+              built by a team obsessed with outcomes.
             </p>
           </SlideUp>
         </Container>
@@ -132,14 +134,14 @@ export default function AboutPage() {
               Vision
             </span>
             <h2 className="font-heading text-2xl font-semibold tracking-tight">
-              A world where anyone can grow their career or business with the
-              right tools and support.
+              A world where every business operates autonomously — driven by
+              intelligence, not manual effort.
             </h2>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              We believe opportunity shouldn't depend on where you're from or
-              who you know. GloApp exists to level the field — giving
-              individuals the career foundation and giving businesses the
-              digital infrastructure to compete and thrive.
+              We believe the future of business is autonomous. GloApp exists to
+              make that future accessible — giving organizations the AI-powered
+              software infrastructure to compete, scale, and thrive without
+              being bottlenecked by manual processes.
             </p>
           </SlideUp>
 
@@ -148,13 +150,13 @@ export default function AboutPage() {
               Mission
             </span>
             <h2 className="font-heading text-2xl font-semibold tracking-tight">
-              Build solutions that create real, measurable impact for every
-              client.
+              Build AI-powered solutions that create real, measurable impact for
+              every client.
             </h2>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              From a student's first CV to an enterprise's custom ERP, every
-              engagement gets the same care — careful scoping, honest
-              timelines, and a product built to last.
+              From a company's first digital product to a fully autonomous ERP,
+              every engagement gets the same care — careful scoping, honest
+              timelines, and software built to last.
             </p>
           </SlideUp>
         </div>
@@ -218,18 +220,18 @@ export default function AboutPage() {
         <Container>
           <SlideUp className="mx-auto max-w-2xl text-center">
             <h2 className="font-heading mb-6 text-2xl font-semibold tracking-tight sm:text-3xl">
-              Built by someone who's been there
+              Built to make autonomy the default
             </h2>
             <p className="text-muted-foreground mb-4 text-base leading-relaxed">
-              GloApp was founded with a clear frustration: talented people
-              struggling to land jobs because their CV didn't reflect their
-              skills — and businesses that couldn't grow because they lacked
-              the right digital tools. We set out to fix both.
+              GloApp was founded with a clear frustration: businesses investing
+              heavily in digital tools that still required armies of people to
+              operate them. We believed software should work for you — not the
+              other way around. So we built a company around that principle.
             </p>
             <p className="text-muted-foreground text-base leading-relaxed">
-              Today we serve students, professionals, and organizations across
-              Indonesia and beyond, with a remote-first team that's obsessed
-              with quality and outcomes.
+              Today we serve organizations across Indonesia and beyond —
+              delivering software and AI-powered systems that let businesses
+              operate smarter, faster, and with far less manual effort.
             </p>
             <div className="mt-8 flex justify-center">
               <Button

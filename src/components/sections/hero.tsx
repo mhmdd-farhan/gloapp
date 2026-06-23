@@ -17,27 +17,27 @@ export function Hero() {
         <div className="flex flex-col items-start gap-6">
           <SlideUp>
             <Link
-              href="/affiliate"
+              href="/services#ai"
               className="border-gradient-brand bg-brand/5 text-brand hover:bg-brand/10 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium transition-colors"
             >
               <Sparkles className="size-3.5" />
-              Now offering an affiliate program
+              AI-powered autonomous digital transformation
               <ArrowRight className="size-3.5" />
             </Link>
           </SlideUp>
 
           <SlideUp delay={0.05}>
             <h1 className="font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl lg:leading-[1.05]">
-              Build Your Career.{" "}
-              <GradientText>Scale Your Business.</GradientText>
+              Go Autonomous.{" "}
+              <GradientText>Powered by AI.</GradientText>
             </h1>
           </SlideUp>
 
           <SlideUp delay={0.1}>
             <p className="text-muted-foreground max-w-xl text-lg leading-relaxed text-pretty">
-              Helping individuals launch their careers and helping organizations
-              grow through digital solutions — from career preparation and
-              portfolios to custom business software.
+              We transform traditional digital operations into autonomous digital
+              systems — from custom business software to AI-powered automation
+              that runs your business by itself.
             </p>
           </SlideUp>
 
@@ -48,19 +48,19 @@ export function Hero() {
                 <ArrowRight className="size-4" />
               </Button>
               <Button
-                render={<Link href="/affiliate" />}
+                render={<Link href="/contact" />}
                 variant="outline"
                 size="lg"
                 className="h-11 px-5 text-sm"
               >
-                Become Affiliate
+                Book Free Consultation
               </Button>
             </div>
           </SlideUp>
 
           <SlideUp delay={0.2}>
             <p className="text-muted-foreground text-sm">
-              Trusted by students, professionals, and growing businesses.
+              Trusted by organizations across Indonesia and beyond.
             </p>
           </SlideUp>
         </div>

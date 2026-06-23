@@ -17,22 +17,22 @@ import { Stagger, StaggerItem, SlideUp } from "@/components/motion/motion-primit
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Career services, business solutions, custom development, and affiliate programs — all under one roof.",
+    "AI transformation, business software solutions, and custom development — we turn traditional digital operations into autonomous digital systems.",
   keywords: [
-    "career services Indonesia",
-    "CV optimization",
-    "LinkedIn optimization",
-    "mock interview",
+    "AI transformation Indonesia",
+    "autonomous digital",
+    "business software solutions",
     "custom software development",
-    "business solutions",
+    "AI automation",
     "POS system Indonesia",
     "school management system",
+    "digital transformation AI",
   ],
   alternates: { canonical: "/services" },
   openGraph: {
     title: `Services · ${siteConfig.name}`,
     description:
-      "Career services, business solutions, custom development, and affiliate programs — all under one roof.",
+      "AI transformation, business software solutions, and custom development — we turn traditional digital operations into autonomous digital systems.",
     url: `${siteConfig.url}/services`,
   },
 };
@@ -53,7 +53,7 @@ const jsonLd = {
       url: `${siteConfig.url}/services`,
       name: `Services · ${siteConfig.name}`,
       description:
-        "Career services, business solutions, custom development, and affiliate programs — all under one roof.",
+        "AI transformation, business software solutions, and custom development — we turn traditional digital operations into autonomous digital systems.",
       isPartOf: { "@id": siteConfig.url },
     },
   ],
@@ -74,13 +74,14 @@ export default function ServicesPage() {
         <Container>
           <SlideUp className="mx-auto max-w-3xl text-center">
             <h1 className="font-heading mb-5 text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl lg:leading-[1.05]">
-              Everything you need to{" "}
-              <GradientText>grow, in one place</GradientText>
+              Software solutions that make your{" "}
+              <GradientText>business autonomous</GradientText>
             </h1>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg leading-relaxed text-pretty">
-              Whether you're launching your career or scaling your business,
-              GloApp brings the services, software, and support you need — with
-              custom pricing that fits your actual scope.
+              From AI-powered automation to production-ready business software,
+              GloApp delivers the tools and intelligence your organization needs
+              to go from traditional digital to fully autonomous — with custom
+              pricing that fits your actual scope.
             </p>
           </SlideUp>
         </Container>
@@ -129,36 +130,36 @@ export default function ServicesPage() {
         </Stagger>
       </Section>
 
-      {/* Career section detail */}
-      <Section id="career" className="bg-card/30 border-border/70 border-y">
+      {/* AI Transformation detail */}
+      <Section id="ai" className="bg-card/30 border-border/70 border-y">
         <SectionHeading
-          eyebrow="Career Services"
-          title="From campus to career"
-          description="We work with students, fresh graduates, and professionals who want to stand out in a competitive market."
+          eyebrow="AI Transformation"
+          title="From manual to autonomous"
+          description="We design and deploy AI-powered systems that replace repetitive manual operations with intelligent, self-running workflows."
           className="mx-auto mb-14"
         />
 
         <Stagger className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              title: "CV Optimization",
-              desc: "ATS-friendly, recruiter-ready CVs that pass automated screening and highlight your strengths.",
+              title: "Workflow Automation",
+              desc: "End-to-end automation of business processes — approvals, notifications, data flows, and more — without human intervention.",
             },
             {
-              title: "LinkedIn Optimization",
-              desc: "A profile that gets found by recruiters and positions you as a credible professional.",
+              title: "AI Decision Engines",
+              desc: "Smart rule systems and ML models that make real-time decisions based on your operational data.",
             },
             {
-              title: "Portfolio Review",
-              desc: "Expert feedback on your portfolio to sharpen the story your work tells.",
+              title: "Autonomous Reporting",
+              desc: "Auto-generated reports and dashboards that surface the metrics your leadership needs — on schedule, every time.",
             },
             {
-              title: "Mock Interview",
-              desc: "Realistic practice with structured feedback so you walk in confident.",
+              title: "System Integration",
+              desc: "Connect your existing tools into a unified, orchestrated ecosystem that shares data and triggers actions automatically.",
             },
             {
-              title: "Career Consultation",
-              desc: "One-on-one guidance to map your next move, from skill gaps to target roles.",
+              title: "Intelligent Document Processing",
+              desc: "AI that reads, classifies, and routes documents — invoices, contracts, forms — with near-zero manual handling.",
             },
           ].map((item) => (
             <StaggerItem
@@ -174,10 +175,10 @@ export default function ServicesPage() {
 
           <StaggerItem className="from-brand/10 to-brand-2/10 border-gradient-brand flex flex-col items-start gap-4 rounded-2xl border bg-gradient-to-br p-6">
             <p className="text-sm font-medium">
-              Ready to land your first job or level up?
+              Ready to make your operations autonomous?
             </p>
             <Button
-              render={<Link href="/contact?service=career" />}
+              render={<Link href="/contact?service=ai" />}
               size="sm"
             >
               Book a free consultation
@@ -219,8 +220,8 @@ export default function ServicesPage() {
               desc: "Premium, fast, SEO-ready websites that build instant trust with customers.",
             },
             {
-              title: "Portfolio Website",
-              desc: "Personal-brand sites that showcase your work and convert visitors into opportunities.",
+              title: "Custom ERP",
+              desc: "Bespoke enterprise resource planning built around how your operations actually run.",
             },
           ].map((item) => (
             <StaggerItem

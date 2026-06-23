@@ -5,12 +5,17 @@ export const faqs: FaqItem[] = [
   {
     question: "What exactly is GloApp?",
     answer:
-      "GloApp is a business solutions ecosystem. We help individuals launch their careers and help organizations grow through digital solutions — from career services and portfolios to custom business software.",
+      "GloApp is a software business solutions company that helps organizations transform their traditional digital operations into autonomous digital systems, powered by artificial intelligence.",
   },
   {
-    question: "Do you only build websites?",
+    question: "What does 'autonomous digital' mean?",
     answer:
-      "No. Alongside websites we deliver career services, POS and school management systems, CRMs, inventory tools, and fully custom software tailored to your operations.",
+      "Autonomous digital means your business operations run themselves — automated workflows, AI-powered decisions, and self-generating reports — with minimal manual intervention. We build the software infrastructure that makes this possible.",
+  },
+  {
+    question: "Do you only build AI solutions?",
+    answer:
+      "No. We deliver the full stack: AI automation, POS systems, school management platforms, CRMs, inventory tools, company websites, and fully custom software. AI can be layered into any solution.",
   },
   {
     question: "How does pricing work?",
@@ -20,7 +25,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How long does a typical project take?",
     answer:
-      "It depends on scope. Smaller sites can launch in a couple of weeks, while custom software is planned in phases. We share a realistic timeline in your proposal.",
+      "It depends on scope. Smaller sites can launch in a couple of weeks, while custom software and AI automation projects are planned in phases. We share a realistic timeline in your proposal.",
   },
   {
     question: "Can I become an affiliate without technical skills?",

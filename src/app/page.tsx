@@ -1,6 +1,5 @@
 import { Hero } from "@/components/sections/hero";
 import { Solutions } from "@/components/sections/solutions";
-import { CareerServices } from "@/components/sections/career-services";
 import { BusinessSolutions } from "@/components/sections/business-solutions";
 import { AffiliateProgram } from "@/components/sections/affiliate-program";
 import { WhyGloApp } from "@/components/sections/why-gloapp";
@@ -14,7 +13,6 @@ export default function Home() {
     <>
       <Hero />
       <Solutions />
-      <CareerServices />
       <BusinessSolutions />
       <AffiliateProgram />
       <WhyGloApp />

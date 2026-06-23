@@ -3,16 +3,16 @@ import type { Feature } from "@/lib/content/types";
 /** Trust indicators for the "Why GloApp" section. */
 export const whyGloapp: Feature[] = [
   {
-    icon: "sparkles",
-    title: "Modern technology stack",
+    icon: "bot",
+    title: "AI-powered by default",
     description:
-      "We build on the same tools that power today's best products — fast, secure, and future-proof.",
+      "Every solution is built AI-ready — intelligent automation is a first-class feature, not an afterthought.",
   },
   {
     icon: "layers",
     title: "Custom solutions",
     description:
-      "No rigid templates. Everything is tailored to how your team and customers actually work.",
+      "No rigid templates. Everything is tailored to how your team and operations actually work.",
   },
   {
     icon: "smartphone",

@@ -6,19 +6,19 @@ import type { ProductItem, Feature } from "@/lib/content/types";
  */
 export const products: ProductItem[] = [
   {
-    icon: "file-text",
-    title: "Portfolio Website",
+    icon: "bot",
+    title: "AI Automation",
     overview:
-      "A personal-brand site that showcases your work and converts visitors into opportunities.",
+      "Transform manual workflows into autonomous, self-running digital operations powered by artificial intelligence.",
     features: [
-      "Custom, responsive design",
-      "Project & case-study layouts",
-      "SEO & fast performance",
-      "Contact & lead capture",
+      "Workflow & process automation",
+      "AI-powered decision engines",
+      "Autonomous reporting & analytics",
+      "System integration & orchestration",
     ],
-    cta: "Request a quote",
-    href: "/contact?product=portfolio",
-    badge: "Individuals",
+    cta: "Start a project",
+    href: "/contact?product=ai-automation",
+    badge: "AI · Autonomous",
   },
   {
     icon: "globe",
@@ -115,6 +115,11 @@ export const products: ProductItem[] = [
 /** Compact list shown in the homepage Business Solutions grid. */
 export const businessSolutions: Feature[] = [
   {
+    icon: "bot",
+    title: "AI Automation",
+    description: "Intelligent workflows that run your operations autonomously.",
+  },
+  {
     icon: "shopping-cart",
     title: "POS System",
     description: "Sales, inventory, and reporting for retail and F&B.",
@@ -128,11 +133,6 @@ export const businessSolutions: Feature[] = [
     icon: "code",
     title: "Custom ERP",
     description: "Bespoke resource planning built around your operations.",
-  },
-  {
-    icon: "dashboard",
-    title: "Internal Dashboard",
-    description: "Real-time visibility into the metrics that matter.",
   },
   {
     icon: "boxes",

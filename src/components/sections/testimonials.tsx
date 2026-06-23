@@ -9,8 +9,8 @@ export function Testimonials() {
     <Section id="testimonials" className="bg-card/30 border-border/70 border-y">
       <SectionHeading
         eyebrow="Testimonials"
-        title="Loved by individuals and businesses alike"
-        description="From first jobs to scaled operations, here's what people achieve with GloApp."
+        title="Trusted by businesses across Indonesia"
+        description="From AI-powered automation to digitized operations, here's what organizations achieve with GloApp."
         className="mx-auto mb-14"
       />
 

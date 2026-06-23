@@ -4,11 +4,11 @@ import type { Testimonial } from "@/lib/content/types";
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "GloApp rebuilt our CV and coached us through interviews. I landed my first job within a month of finishing the program.",
-    name: "Amelia Putri",
-    role: "Junior Frontend Developer",
-    company: "Fresh Graduate",
-    initials: "AP",
+      "GloApp automated our entire order-to-invoice workflow. What used to take our team three hours now runs itself — we haven't touched it in weeks.",
+    name: "Andi Kurniawan",
+    role: "Operations Director",
+    company: "Sentral Distribusi",
+    initials: "AK",
   },
   {
     quote:

@@ -17,8 +17,8 @@ export function Cta() {
             Ready to <GradientText>get started?</GradientText>
           </h2>
           <p className="text-muted-foreground max-w-lg text-base leading-relaxed text-pretty sm:text-lg">
-            Whether you're launching your career or scaling your business, we're
-            ready to help. Let's start with a free consultation.
+            Ready to transform your business into an autonomous digital
+            operation? Let's start with a free discovery consultation.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button render={<Link href="/contact?service=consultation" />} size="lg" className="h-11 px-6 text-sm">

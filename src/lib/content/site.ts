@@ -3,11 +3,11 @@ export const siteConfig = {
   name: "GloApp",
   legalName: "GloApp",
   meaning: "Global App",
-  tagline: "Build Your Career. Scale Your Business.",
+  tagline: "Go Autonomous. Powered by AI.",
   secondaryTagline:
-    "From career preparation and portfolio development to custom business software and digital transformation.",
+    "From custom software to AI-powered automation — we transform how businesses operate.",
   description:
-    "GloApp is a business solutions ecosystem helping individuals launch their careers and helping organizations grow through digital solutions.",
+    "GloApp is a software business solutions company helping organizations transform their traditional digital operations into autonomous digital systems, powered by artificial intelligence.",
   url: "https://gloapp.my.id",
   domain: "gloapp.my.id",
   email: "hello@gloapp.my.id",
@@ -26,11 +26,9 @@ export const siteConfig = {
 /** Future product subdomains — displayed as products but not yet implemented. */
 export const subdomains = {
   agency: "agency.gloapp.my.id",
-  career: "career.gloapp.my.id",
   affiliate: "affiliate.gloapp.my.id",
   school: "school.gloapp.my.id",
   pos: "pos.gloapp.my.id",
-  portfolio: "portfolio.gloapp.my.id",
 } as const;
 
 export type SiteConfig = typeof siteConfig;

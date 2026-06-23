@@ -14,7 +14,7 @@ export const footerNav: { title: string; links: NavLink[] }[] = [
   {
     title: "Solutions",
     links: [
-      { label: "Career Services", href: "/services#career" },
+      { label: "AI Transformation", href: "/services#ai" },
       { label: "Business Solutions", href: "/services#business" },
       { label: "Custom Development", href: "/services#custom" },
       { label: "Affiliate Program", href: "/affiliate" },
@@ -26,7 +26,7 @@ export const footerNav: { title: string; links: NavLink[] }[] = [
       { label: "POS System", href: "/products#pos" },
       { label: "School Management", href: "/products#school" },
       { label: "CRM", href: "/products#crm" },
-      { label: "Portfolio Website", href: "/products#portfolio" },
+      { label: "Inventory System", href: "/products#inventory" },
     ],
   },
   {

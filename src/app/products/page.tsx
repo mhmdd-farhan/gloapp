@@ -17,9 +17,9 @@ import { Stagger, StaggerItem, SlideUp } from "@/components/motion/motion-primit
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Portfolio websites, POS systems, school management, CRM, inventory — production-ready software built for real businesses.",
+    "AI automation, POS systems, school management, CRM, inventory — production-ready software that transforms how businesses operate.",
   keywords: [
-    "portfolio website builder",
+    "AI automation software",
     "POS system Indonesia",
     "school management system",
     "CRM software",
@@ -27,12 +27,13 @@ export const metadata: Metadata = {
     "custom ERP Indonesia",
     "company profile website",
     "business software Indonesia",
+    "autonomous digital solutions",
   ],
   alternates: { canonical: "/products" },
   openGraph: {
     title: `Products · ${siteConfig.name}`,
     description:
-      "Portfolio websites, POS systems, school management, CRM, inventory — production-ready software built for real businesses.",
+      "AI automation, POS systems, school management, CRM, inventory — production-ready software that transforms how businesses operate.",
     url: `${siteConfig.url}/products`,
   },
 };
@@ -53,7 +54,7 @@ const jsonLd = {
       url: `${siteConfig.url}/products`,
       name: `Products · ${siteConfig.name}`,
       description:
-        "Portfolio websites, POS systems, school management, CRM, inventory — production-ready software built for real businesses.",
+        "AI automation, POS systems, school management, CRM, inventory — production-ready software that transforms how businesses operate.",
       isPartOf: { "@id": siteConfig.url },
     },
     {
@@ -89,9 +90,9 @@ export default function ProductsPage() {
               <GradientText>real operations</GradientText>
             </h1>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg leading-relaxed text-pretty">
-              Production-ready platforms and bespoke builds for individuals and
-              organizations — all priced with a custom quotation after a free
-              discovery call.
+              Production-ready platforms and AI-powered solutions built for
+              organizations that want to operate smarter — all priced with a
+              custom quotation after a free discovery call.
             </p>
           </SlideUp>
         </Container>

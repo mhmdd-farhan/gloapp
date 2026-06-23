@@ -1,58 +1,24 @@
 import type { ServiceItem, ProcessStep } from "@/lib/content/types";
 
-/** Career Services line items (homepage Career section + Services page). */
-export const careerServices: ServiceItem[] = [
-  {
-    icon: "file-text",
-    title: "CV Optimization",
-    description:
-      "ATS-friendly, recruiter-ready CVs that highlight your strengths and pass automated screening.",
-  },
-  {
-    icon: "search",
-    title: "Portfolio Review",
-    description:
-      "Expert feedback on your portfolio to sharpen the story your work tells.",
-  },
-  {
-    icon: "linkedin",
-    title: "LinkedIn Optimization",
-    description:
-      "A profile that gets found by recruiters and positions you as a credible professional.",
-  },
-  {
-    icon: "presentation",
-    title: "Mock Interview",
-    description:
-      "Realistic practice interviews with structured feedback so you walk in confident.",
-  },
-  {
-    icon: "message",
-    title: "Career Consultation",
-    description:
-      "One-on-one guidance to map your next move, from skill gaps to target roles.",
-  },
-];
-
 /** High-level service categories for the Services page. */
 export const serviceCategories: ServiceItem[] = [
   {
-    icon: "user-check",
-    title: "Career Services",
+    icon: "bot",
+    title: "AI Transformation",
     description:
-      "Everything individuals need to launch and grow their careers — from CVs to interview coaching.",
+      "Intelligent automation that transforms manual operations into autonomous, self-running digital systems powered by AI.",
     bullets: [
-      "CV & resume optimization",
-      "Portfolio & LinkedIn review",
-      "Mock interviews & coaching",
-      "1:1 career consultation",
+      "Workflow & process automation",
+      "AI-powered decision engines",
+      "Autonomous reporting & analytics",
+      "System integration & orchestration",
     ],
   },
   {
     icon: "boxes",
     title: "Business Solutions",
     description:
-      "Production-ready software that digitizes operations — POS, school management, CRM, and more.",
+      "Production-ready software that digitizes and automates operations — POS, school management, CRM, and more.",
     bullets: [
       "POS & inventory systems",
       "School management platform",
@@ -64,7 +30,7 @@ export const serviceCategories: ServiceItem[] = [
     icon: "code",
     title: "Custom Development",
     description:
-      "Bespoke software engineered to your workflow, built on a modern, scalable stack.",
+      "Bespoke software engineered to your workflow, built on a modern, scalable, AI-ready stack.",
     bullets: [
       "Custom ERP & internal tools",
       "API & system integrations",

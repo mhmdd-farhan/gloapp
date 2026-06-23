@@ -1,4 +1,5 @@
 import {
+  Bot,
   Briefcase,
   FileText,
   Globe,
@@ -36,6 +37,7 @@ import {
  * bundler tree-shake unused icons.
  */
 export const iconRegistry = {
+  bot: Bot,
   briefcase: Briefcase,
   "file-text": FileText,
   globe: Globe,

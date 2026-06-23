@@ -13,7 +13,7 @@ export function Solutions() {
       <SectionHeading
         eyebrow="Our Ecosystem"
         title="One ecosystem, every solution you need"
-        description="From launching careers to scaling operations, GloApp brings the tools, services, and software together in one place."
+        description="From AI-powered automation to production-ready business software, GloApp brings every solution your organization needs in one place."
         className="mx-auto mb-14"
       />
 

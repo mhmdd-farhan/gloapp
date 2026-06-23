@@ -1,25 +1,15 @@
 import type { SolutionCard } from "@/lib/content/types";
 import { subdomains } from "@/lib/content/site";
 
-/** The 7 ecosystem solutions shown on the homepage Solutions grid. */
+/** The ecosystem solutions shown on the homepage Solutions grid. */
 export const solutions: SolutionCard[] = [
   {
-    icon: "briefcase",
-    title: "Career Services",
+    icon: "bot",
+    title: "AI Automation",
     description:
-      "CV optimization, mock interviews, and consultation to help students and graduates land their first job.",
-    href: "/services#career",
-    cta: "Explore careers",
-    subdomain: subdomains.career,
-  },
-  {
-    icon: "file-text",
-    title: "Portfolio Development",
-    description:
-      "Professional portfolios and personal-brand sites that make professionals stand out.",
-    href: "/products#portfolio",
-    cta: "Build portfolio",
-    subdomain: subdomains.portfolio,
+      "Intelligent workflow automation that transforms manual operations into autonomous, self-running digital systems.",
+    href: "/services#ai",
+    cta: "Explore AI",
   },
   {
     icon: "globe",

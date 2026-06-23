@@ -81,7 +81,7 @@ export default function AffiliatePage() {
               <GradientText>real income</GradientText>
             </h1>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg leading-relaxed text-pretty">
-              Refer businesses and professionals to GloApp and earn commissions
+              Refer businesses and organizations to GloApp and earn commissions
               — no technical skills required. Just make introductions.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
