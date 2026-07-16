@@ -15,16 +15,6 @@ export function Hero() {
 
       <Container className="grid items-center gap-12 py-20 sm:py-24 lg:grid-cols-2 lg:gap-8 lg:py-28">
         <div className="flex flex-col items-start gap-6">
-          <SlideUp>
-            <Link
-              href="/services#ai"
-              className="border-gradient-brand bg-brand/5 text-brand hover:bg-brand/10 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium transition-colors"
-            >
-              <Sparkles className="size-3.5" />
-              AI-powered autonomous digital transformation
-              <ArrowRight className="size-3.5" />
-            </Link>
-          </SlideUp>
 
           <SlideUp delay={0.05}>
             <h1 className="font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl lg:leading-[1.05]">
