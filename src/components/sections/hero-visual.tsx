@@ -81,11 +81,6 @@ export function HeroVisual() {
 
       {/* Floating chips */}
       <FloatingChip
-        className="-left-2 top-10 sm:left-2"
-        icon={<Briefcase className="size-4" />}
-        label="First job secured"
-      />
-      <FloatingChip
         className="-right-1 top-1/3 sm:right-0"
         icon={<ShoppingCart className="size-4" />}
         label="POS live"
